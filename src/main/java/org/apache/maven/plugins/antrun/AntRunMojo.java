@@ -495,7 +495,7 @@ public class AntRunMojo
             if ( mavenProperties.getProperty( key ) != null )
             {
                 getLog().debug( "Ant property '" + key + "=" + mavenProperties.getProperty( key )
-                    + "' clashs with an existing Maven property, SKIPPING this Ant property propagation." );
+                    + "' clashes with an existing Maven property, SKIPPING this Ant property propagation." );
                 continue;
             }
             // it is safe to call toString directly since the value cannot be null in Hashtable
